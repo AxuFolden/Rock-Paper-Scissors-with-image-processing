@@ -16,13 +16,39 @@ Dataset's weights is found at [https://colab.research.google.com/github/ultralyt
 
 - Python
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- Shutil library
+
+to shell
+```
+pip install pytest-shutil
+```
+- Tkinter library
+
+to shell
+```
+pip install tk
+```
+- Os library
+
+to shell
+```
+pip install os-sys
+```
+- OpenCV library
+
+to shell
+```
+pip install opencv-python
+```
 - YoloV5
+
 to shell
 ```
 !git clone https://github.com/ultralytics/yolov5  # clone
 %cd yolov5
 %pip install -qr requirements.txt  # install
 ```
+
 to python file
 ```
 import torch
